@@ -8,7 +8,7 @@ class Platform extends Component{
 <h2 className="platform-heading">Robit Platform standard chunk of lorem ipsum?</h2>
 <p className="platform-parag">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
 <div className="row">
-    <div className="card-area col-lg-4">
+    <div className="card-area col-lg-4 col-md-4">
     <div className="card">
             <img src={process.env.PUBLIC_URL + "/img_platform_01.png"} className="card-img-top"/>
             <div className="card-body">
@@ -17,7 +17,7 @@ class Platform extends Component{
             </div>
             </div>
     </div>
-    <div className="col-lg-4">
+    <div className="col-lg-4 col-md-4">
     <div className="card">
     <img src={process.env.PUBLIC_URL + "/img_platform_02.png"} className="card-img-top"/>
             <div className="card-body">
@@ -26,7 +26,7 @@ class Platform extends Component{
             </div>
             </div>
     </div>
-    <div className="col-lg-4">
+    <div className="col-lg-4 col-md-4">
         <div className="card">
         <img src={process.env.PUBLIC_URL + "/img_platform_03.png"} className="card-img-top"/>
             <div className="card-body">

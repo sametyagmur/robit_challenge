@@ -9,7 +9,7 @@ class Navbar extends Component {
           {" "}
           <img src={process.env.PUBLIC_URL + "/logo.png"} />
         </a>
-        
+
         <button
           type="button"
           className="navbar-toggler custom-toggler collapsed"
@@ -18,7 +18,7 @@ class Navbar extends Component {
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-       
+
         <div className="collapse navbar-collapse" id="navbarCollapse">
           <ul className="nav navbar-nav">
             <li className="navbar-item">
@@ -53,11 +53,14 @@ class Navbar extends Component {
             </div>
           </form>
           <div className="register-btn">
-         <button className="sign-in btn btn-primary" type="button">Sign in</button>
-         <button className="sign-up btn btn-primary" type="button">Sign up</button>
-         </div>
+            <button className="sign-in btn btn-primary" type="button">
+              Sign in
+            </button>
+            <button className="sign-up btn btn-primary" type="button">
+              Sign up
+            </button>
+          </div>
         </div>
-        
       </nav>
     );
   }

@@ -2,36 +2,226 @@
     font-size: 32px;
     color: #000000;
     font-family: 'Poppins', sans-serif;
-    padding-top: 69px;
-    
-    width: 48.1%;
-    padding-bottom: 24px;
-    
+    font-weight: 400;
+    padding: 69px 407px 24px 0px;
+    line-height: 48px;
 }
+
 .platform-area .platform-parag{
-    font-size: 22px;
+    font-size: 28px;
+    line-height: 32px;
     color: #000000;
     font-family: 'Poppins', sans-serif;
-    width: 73.4%;
+    padding: 0px 102px 49px 0px;
     
 }
+
 .card-body h5{
 font-size: 24px;
+line-height: 35px;
 font-family: 'Poppins', sans-serif;
+font-weight: 500;
+padding-top:25px;
+margin:0!important;
 }
+
 .card-body p{
     font-size: 18px;
+    line-height: 27px;
     font-family: 'Poppins', sans-serif;
-    width: 80%;
+    font-weight: 400;
+    padding-top:25px;
+    padding-bottom: 34px;
+     
     }
+
 .card{
     width: 100%;
     background:linear-gradient(to bottom,#3A7BD5,#00D2FF);
     color: #ffffff;
     box-shadow: 0px 4px 20px rgba(0,0,0,0.14);
     border: none;
-    margin-top:49px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom:70px;
+    margin: 49px auto 70px auto;
+    padding:0;
 }
+
+@media only screen and (max-width:575px){
+    .platform-area .platform-heading{
+        line-height: 26px;
+        font-size: 24px;
+        padding: 30px 10px 30px 10px;
+        margin-top: 10px;
+        width: 100%;
+        text-align: left;
+    }
+
+    .platform-area .platform-parag{
+        font-size: 18px;
+        line-height: 22px;
+        color: #000000;
+        font-family: 'Poppins', sans-serif;
+        padding: 0px 10px 0px 10px;
+    }
+
+    .card-body h5{
+        font-size: 18px;
+        line-height: 25px;
+        font-weight: 500;
+        padding-top:15px;
+        }
+        
+        .card-body p{
+            font-size: 14px;
+            line-height: 20px;
+            padding-top:15px;
+            padding-bottom: 14px;
+        }
+        
+        .card{
+            margin: 30px auto 20px auto;
+            padding:0;
+        }
+}
+
+@media only screen and (min-width:576px) and (max-width:767px){
+    .platform-area .platform-heading{
+        line-height: 26px;
+        font-size: 24px;
+        padding: 30px 10px 30px 0px;
+        margin-top: 10px;
+        width: 100%;
+        text-align: left;
+    }
+
+    .platform-area .platform-parag{
+        font-size: 18px;
+        line-height: 22px;
+        padding: 0px 10px 0px 0px;
+    }
+
+    .card-body h5{
+        font-size: 18px;
+        line-height: 25px;
+        font-weight: 500;
+        padding-top:15px;
+        }
+        
+        .card-body p{
+            font-size: 14px;
+            line-height: 20px;
+            padding-top:15px;
+            padding-bottom: 14px;
+        }
+        
+        .card{
+            margin: 30px auto 20px auto;
+            padding:0;
+        }
+}
+@media only screen and (min-width:768px) and (max-width:991px){
+    .platform-area .platform-heading{
+        line-height: 28px;
+        font-size: 26px;
+        padding: 30px 10px 30px 10px;
+        margin-top: 10px;
+        width: 100%;
+        text-align: left;
+    }
+
+    .platform-area .platform-parag{
+        font-size: 18px;
+        line-height: 22px;
+        padding: 0px 10px 0px 10px;
+    }
+
+    .card-body h5{
+        font-size: 18px;
+        line-height: 25px;
+        font-weight: 500;
+        padding-top:15px;
+        }
+        
+        .card-body p{
+            font-size: 14px;
+            line-height: 20px;
+            padding-top:15px;
+            padding-bottom: 14px;
+        }
+        
+        .card{
+            margin: 30px auto 20px auto;
+            padding:0;
+        }
+}
+@media only screen and (min-width:992px) and (max-width:1199px){
+    .platform-area .platform-heading{
+        line-height: 32px;
+        font-size: 30px;
+        padding: 30px 10px 30px 10px;
+        margin-top: 10px;
+        width: 100%;
+        text-align: left;
+    }
+
+    .platform-area .platform-parag{
+        font-size: 18px;
+        line-height: 22px;
+        padding: 0px 10px 0px 10px;
+    }
+
+    .card-body h5{
+        font-size: 18px;
+        line-height: 25px;
+        font-weight: 500;
+        padding-top:15px;
+        }
+        
+        .card-body p{
+            font-size: 14px;
+            line-height: 20px;
+            padding-top:15px;
+            padding-bottom: 14px;
+        }
+        
+        .card{
+            margin: 30px auto 20px auto;
+            padding:0;
+        }
+}
+@media only screen and (min-width:1200px) and (max-width:1365px){
+    .platform-area .platform-heading{
+        line-height: 28px;
+        font-size: 26px;
+        padding: 30px 10px 30px 10px;
+        margin-top: 10px;
+        width: 100%;
+        text-align: left;
+    }
+
+    .platform-area .platform-parag{
+        font-size: 18px;
+        line-height: 22px;
+        padding: 0px 10px 0px 10px;
+    }
+
+    .card-body h5{
+        font-size: 18px;
+        line-height: 25px;
+        font-weight: 500;
+        padding-top:15px;
+        }
+        
+        .card-body p{
+            font-size: 14px;
+            line-height: 20px;
+            padding-top:15px;
+            padding-bottom: 14px;
+        }
+        
+        .card{
+            margin: 30px auto 20px auto;
+            padding:0;
+        }
+}
+
+
