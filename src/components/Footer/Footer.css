@@ -1,25 +1,35 @@
-.copyright{
-    font-size: 10px;
-    color: #000000;
-    font-family: Poppins-Regular;
-    text-align: center;
-    border-top: 1px solid rgba(0,0,0,0.50);
-    padding-bottom: 31px;
-    padding-top: 29px;
+.footer-area .register{
+    background-color: #EFF3F6;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 79px;
+    }
+
+.footer-area .register h4{
+        color: #3A7CD5 ;
+        font-size: 34px;
+        font-weight: 600;
+        font-style: italic;
+        padding-left: 146px;
+        padding-top: 34px;
+        padding-bottom: 16px;
 }
+
+.footer-area .register p{
+    color: #000000 ;
+    font-size: 24px;
+    font-weight: 400;
+    padding-left: 146px;
+}
+
 .footer-menu{
     padding-bottom: 34px;
     text-align: center;
 }
 
-.footer-area .register{
-background-color: #EFF3F6;
-margin-bottom: 79px;
-}
-
 .footer-area .btn{
     background: linear-gradient(to right,#3A7BD5,#00D2FF );
     border: none;
+    font-weight: 500;
     border-radius: 5px;
     width: 244px;
     height: 66px;
@@ -35,27 +45,17 @@ margin-bottom: 79px;
         padding-bottom: 61px ;
         padding-right: 144px;
 }
-.footer-area .register h4{
-    color: #3A7CD5 ;
-    font-size: 34px;
-    font-family:'Poppins', sans-serif;
-    padding-left: 146px;
-    padding-top: 34px;
-    padding-bottom: 16px;
-}
-.footer-area .register p{
-    color: #000000 ;
-    font-size: 24px;
-    font-family: 'Poppins', sans-serif;
-    padding-left: 146px;
-}
+
 .footer-menu-left{
     text-align: left;
 }
 .footer-menu-left a{
 font-size: 11px;
 font-family: 'Poppins', sans-serif;
+font-weight: 600;
 color: #000000 ;
+padding-right: 92px;
+text-decoration: none;
 }
 .footer-menu-right{
     text-align: right;
@@ -64,8 +64,264 @@ color: #000000 ;
 .footer-menu-right a{
     font-size: 11px;
     font-family: 'Poppins', sans-serif;
+    font-weight: 600;
     color: #000000 ;
-    
+    padding-left: 92px;
+    text-decoration: none;
+}
+
+.copyright{
+    font-size: 10px;
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    border-top: 1px solid rgba(0,0,0,0.5);
+    padding-bottom: 31px;
+    padding-top: 29px;
+}
+
+
+@media only screen and (max-width:575px){
+    .footer-area .register{
+        margin-bottom: 20px;
     }
+    
+    .footer-area .register h4{
+            font-size: 24px;
+            line-height: 26px;
+            padding: 30px 10px 30px 10px;
+    }
+    
+    .footer-area .register p{
+        font-size: 18px;
+        padding: 0px 10px 30px 10px;
+    }
+    
+    .footer-menu{
+        padding-bottom: 15px;
+    }
+    
+    .footer-area .btn{
+        width: 144px;
+        height: 33px;
+        font-size: 14px;
+    }
+
+    .footer-area .footer-register-btn{
+           padding: 10px 0px 20px 20px;
+    }
+    
+    .footer-menu-left{
+        text-align: center;
+    }
+
+    .footer-menu-left a{
+    font-size: 11px;
+    padding-right: 5px;
+    }
+
+    .footer-menu-right{
+        text-align: center;
+    }
+
+    .footer-menu-right a{
+    font-size: 11px;
+    padding-left: 5px;
+    }
+    
+    .copyright{
+        font-size: 8px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    
+    .footer-logo{
+        padding:10px 0 10px 0;
+    }
+}
+
+@media only screen and (min-width:576px) and (max-width:767px){
+    .footer-area .register{
+        margin-bottom: 20px;
+    }
+    
+    .footer-area .register h4{
+            font-size: 24px;
+            line-height: 26px;
+            padding: 30px 10px 30px 10px;
+    }
+    
+    .footer-area .register p{
+        font-size: 18px;
+        padding: 0px 10px 30px 10px;
+    }
+    
+    .footer-menu{
+        padding-bottom: 15px;
+    }
+    
+    .footer-area .btn{
+        width: 144px;
+        height: 33px;
+        font-size: 14px;
+    }
+
+    .footer-area .footer-register-btn{
+           padding: 10px 0px 20px 20px;
+    }
+    
+    .footer-menu-left{
+        text-align: left;
+    }
+
+    .footer-menu-left a{
+    font-size: 11px;
+    padding-right: 10px;
+    }
+
+    .footer-menu-right{
+        text-align: right;
+    }
+
+    .footer-menu-right a{
+    font-size: 11px;
+    padding-left: 10px;
+    }
+    
+    .copyright{
+        font-size: 8px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    
+    .footer-logo{
+        padding:10px 0 10px 0;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:991px){
+    .footer-area .register{
+        margin-bottom: 20px;
+    }
+    
+    .footer-area .register h4{
+            font-size: 26px;
+            line-height: 28px;
+            padding: 30px 10px 30px 10px;
+    }
+    
+    .footer-area .register p{
+        font-size: 18px;
+        padding: 0px 10px 30px 10px;
+    }
+    
+    .footer-menu{
+        padding-bottom: 15px;
+    }
+    
+    .footer-area .btn{
+        width: 144px;
+        height: 33px;
+        font-size: 14px;
+    }
+
+    .footer-area .footer-register-btn{
+    padding: 50px 0px 20px 20px;
+    }
+    
+    .footer-menu-left{
+        text-align: left;
+    }
+
+    .footer-menu-left a{
+    font-size: 12px;
+    padding-right: 20px;
+    }
+
+    .footer-menu-right{
+        text-align: right;
+    }
+
+    .footer-menu-right a{
+    font-size: 12px;
+    padding-left: 20px;
+    }
+    
+    .copyright{
+        font-size: 8px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    
+    .footer-logo{
+        padding:10px 0 10px 0;
+    }
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px){
+    .footer-area .register{
+        margin-bottom: 20px;
+    }
+    
+    .footer-area .register h4{
+            font-size: 30px;
+            line-height: 32px;
+            padding: 30px 10px 30px 10px;
+    }
+    
+    .footer-area .register p{
+        font-size: 20px;
+        line-height: 22px;
+        padding: 0px 10px 30px 10px;
+    }
+    
+    .footer-menu{
+        padding-bottom: 15px;
+    }
+    
+    .footer-area .btn{
+        width: 144px;
+        height: 33px;
+        font-size: 14px;
+    }
+
+    .footer-area .footer-register-btn{
+    padding: 60px 0px 20px 20px;
+    }
+    
+    .footer-menu-left{
+        text-align: left;
+    }
+
+    .footer-menu-left a{
+    font-size: 11px;
+    padding-right: 35px;
+    }
+
+    .footer-menu-right{
+        text-align: right;
+    }
+
+    .footer-menu-right a{
+    font-size: 11px;
+    padding-left: 35px;
+    }
+    
+    .copyright{
+        font-size: 8px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    
+    .footer-logo{
+        padding:10px 0 10px 0;
+    }
+}
+
+@media only screen and (min-width:1200px) and (max-width:1365px){
+
+}
+
    
 
