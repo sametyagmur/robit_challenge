@@ -1,0 +1,215 @@
+.navbar{
+    background-color: #ffffff;
+    padding-left: 135px;
+    font-size: 14px;
+    letter-spacing: 0.23px;
+}
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(58,124,213,1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='5' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+.navbar-brand{
+    padding-right: 70px;
+}
+
+.navbar .nav-link{
+    color:#3A7CD5;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.navbar .nav-link:hover{
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.521);
+    border: none;
+    border-radius: 5px;
+}
+
+.navbar-form .input-group-btn .btn{
+    color: #18A0FB;
+    background-color: #EFF3F6 ;
+    height:40px;
+    font-size: 14px;
+}
+
+.navbar-form .input-group .form-control{
+    width: 160px;
+    height: 40px;
+    border: none;
+    background-color: #EFF3F6 ;
+    font-family: 'Andika New Basic', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.register-btn{
+    padding-right: 120px;
+    padding-left: 15px;
+}
+.register-btn .sign-in{
+    background-color: #ffffff;
+    border: 1px solid #3A7CD5;
+    border-radius: 5px;
+    width: 100px;
+    height: 39px;
+    color: #4A4A4A;
+    letter-spacing: 0.23px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 500;
+    font-size: 14px;
+    margin-right: 14px;
+}
+.register-btn .sign-up{
+    background: linear-gradient(to right,#3A7BD5,#00D2FF );
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    height: 39px;
+    color: #ffffff;
+    font-size: 14px;
+    letter-spacing: 0.23px;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0 4px 20px 0 rgba(0,0,0,0.14);
+}
+
+@media only screen and (max-width:575px){
+    .navbar{
+        padding-left: 15px;
+    }
+ 
+    .register-btn{
+        padding:15px 0px 0px 0px;
+        text-align:right;
+    }
+
+    .navbar-form{
+        padding-top: 10px;
+    }
+
+    .register-btn .sign-in{
+        width: 80px;
+        font-size: 12px;
+        margin-right: 10px;
+    }
+
+    .register-btn .sign-up{
+        width: 80px;
+        font-size: 12px;
+    }
+}
+
+@media only screen and (min-width:576px) and (max-width:767px){
+    .navbar{
+        padding-left: 15px;
+    }
+ 
+    .register-btn{
+        padding:15px 0px 0px 0px;
+        text-align:right;
+    }
+
+    .navbar-form{
+        padding-top: 10px;
+    }
+
+    .register-btn .sign-in{
+        width: 80px;
+        font-size: 12px;
+        margin-right: 10px;
+    }
+
+    .register-btn .sign-up{
+        width: 80px;
+        font-size: 12px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:991px){
+    .navbar{
+        padding-left: 25px;
+    }
+ 
+    .register-btn{
+        padding:15px 0px 0px 0px;
+        text-align:right;
+    }
+
+    .navbar-form{
+        padding-top: 10px;
+    }
+
+    .register-btn .sign-in{
+        width: 90px;
+        font-size: 12px;
+        margin-right: 10px;
+    }
+
+    .register-btn .sign-up{
+        width: 90px;
+        font-size: 12px;
+    }
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px){
+    .navbar{
+        padding-left: 60px;
+    }
+ 
+    .navbar-brand{
+        padding-right: 20px;
+    }
+
+    .navbar-form .input-group-btn .btn{
+        color: #18A0FB;
+        background-color: #EFF3F6 ;
+        height:40px;
+        font-size: 14px;
+    }
+    
+    .navbar-form .input-group .form-control{
+        width: 100px;
+    }
+    
+    .register-btn{
+        padding-right: 40px;
+        padding-left: 10px;
+    }
+
+    .register-btn .sign-in{
+        width: 80px;
+        margin-right: 12px;
+    }
+    .register-btn .sign-up{
+        background: linear-gradient(to right,#3A7BD5,#00D2FF );
+        border: none;
+        border-radius: 5px;
+        width: 100px;
+        height: 39px;
+        color: #ffffff;
+        font-size: 14px;
+        letter-spacing: 0.23px;
+        font-family: 'Poppins', sans-serif;
+        box-shadow: 0 4px 20px 0 rgba(0,0,0,0.14);
+    }
+}
+
+@media only screen and (min-width:1200px) and (max-width:1439px){
+    .navbar{
+        padding-left: 135px;
+    }
+
+    .navbar-brand{
+        padding-right: 70px;
+    }
+
+    .navbar-form .input-group .form-control{
+        width: 160px;
+        height: 40px;
+    }
+    
+    .register-btn{
+        padding-right: 120px;
+        padding-left: 15px;
+    }
+
+    
+}
