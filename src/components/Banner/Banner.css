@@ -1,40 +1,327 @@
 .banner-area{
     background:linear-gradient(to bottom,#3A7BD5,#00D2FF);
-    height:447px;
     box-shadow: 0px 4px 20px rgba(0,0,0,0.14);
 }
 .banner-text{
     color: #ffffff;
     letter-spacing: 0;
-    padding-left: 140px;
-    font-family: 'Andika New Basic', sans-serif;
-    
-    font-weight: 300;
-    font-style: italic;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
 }
 
 .banner-text .banner-heading{
     font-size: 38px;
-    margin:104px 0px 9px 0px;
-}
-.banner-text .banner-heading h2{
-    margin:0;
-    padding: 0;
-}
-.main-bottom span{
-    font-family: Poppins-SemiBoldItalic;
+    padding-left: 137px;
+    line-height: 57px;
+    margin-top: 104px;
 }
 
 .banner-text .banner-parag {
     font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 128px;
+    padding-left: 140px;
 }
 
-.form-inline .form-control{
-width: 182px;
-height: 32px;
-border-radius: 6px;
-background-color: #EFF3F6;
-font-family: 'Poppins', sans-serif;
-font-size: 12px;
-color: #555556;
+.banner-form-area{
+    background-color: #ffffff;
+    margin: 68px 0 67px 71px;
+    max-width: 482px;
+}
+
+.banner-form-area p{
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    padding: 40px 0 26px 50px;
+}
+
+.banner-form{
+    padding-left: 50px;
+}
+
+.banner-form .form-control{
+    font-size: 12px;
+    color: #555556;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    margin-bottom: 17.7px;
+}
+.banner-input-1{
+    margin-right: 16.9px;
+}
+.banner-form .form-inline .form-control{
+    width: 182px;
+    height: 32px;
+}
+.banner-form .form-horizontal .form-control{
+    width: 382px;
+    height: 32px;
+}
+.banner-form-area .register-btn{
+    padding-bottom: 43px;
+    padding-left: 0;
+}
+
+.banner-form-area .register-btn .btn{
+    background: linear-gradient(to right,#3A7BD5,#00D2FF );
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    height: 39px;
+    color: #ffffff;
+    font-size: 14px;
+    letter-spacing: 0.23px;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0 4px 20px 0 rgba(0,0,0,0.14);
+}
+
+@media only screen and (max-width:575px) {
+    
+    .banner-text .banner-heading{
+        font-size: 24px;
+        padding-left: 10px;
+        padding-bottom: 10px;
+        line-height: 27px;
+        margin-top: 30px;
+        text-align: center;
+    }
+    
+    .banner-text .banner-parag {
+        font-size: 14px;
+        line-height: 19px;
+        margin-bottom: 24px;
+        padding-left: 10px;
+        text-align: center;
+    }
+    
+    .banner-form-area{
+        margin: 0;
+        width: 100%;
+        margin:0 auto;
+    }
+    
+    .banner-form-area p{
+        font-size: 14px;
+        padding: 20px 0 10px 0;
+        text-align: center;
+    }
+    
+    .banner-form{
+        padding-left: 20px;
+    }
+    
+    .banner-form .form-control{
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+    .banner-input-1{
+        margin-right: 0;
+    }
+    .banner-form .form-inline .form-control{
+        width: 100%;
+    }
+    .banner-form .form-horizontal .form-control{
+        width: 100%;
+    }
+    .banner-form-area .register-btn{
+        padding-bottom: 23px;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width:576px) and (max-width:767px){
+    .banner-text .banner-heading{
+        font-size: 26px;
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 0;
+        line-height: 27px;
+        text-align: center;
+        width: 70%;
+        margin:30px auto;
+    }
+    
+    .banner-text .banner-parag {
+        font-size: 16px;
+        line-height: 19px;
+        margin-bottom: 24px;
+        padding-left: 10px;
+        text-align: center;
+    }
+    
+    .banner-form-area{
+        margin: 0;
+        width: 100%;
+        margin:0 auto;
+    }
+    
+    .banner-form-area p{
+        font-size: 16px;
+        padding: 20px 0 10px 0;
+        text-align: center;
+    }
+    
+    .banner-form{
+        padding-left: 0px;
+    }
+    
+    .banner-form .form-control{
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+    .banner-input-1{
+        margin-right: 0;
+    }
+    .banner-form .form-inline .form-control{
+        width: 100%;
+    }
+    .banner-form .form-horizontal .form-control{
+        width: 100%;
+    }
+    .banner-form-area .register-btn{
+        padding-bottom: 23px;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:991px){
+    .banner-text .banner-heading{
+        font-size: 28px;
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 0;
+        line-height: 29px;
+        text-align: center;
+        width: 80%;
+        margin:30px auto;
+    }
+    
+    .banner-text .banner-parag {
+        font-size: 16px;
+        line-height: 19px;
+        margin-bottom: 24px;
+        padding-left: 10px;
+        text-align: center;
+    }
+    
+    .banner-form-area{
+        width: 100%;
+        margin:20px auto;
+    }
+    
+    .banner-form-area p{
+        font-size: 16px;
+        padding: 20px 0 10px 0;
+        text-align: center;
+    }
+    
+    .banner-form{
+        padding-left: 0px;
+    }
+    
+    .banner-form .form-control{
+        font-size: 12px;
+        margin-bottom: 12px;
+    }
+    .banner-input-1{
+        margin-right: 0;
+    }
+    .banner-form .form-inline .form-control{
+        width: 100%;
+    }
+    .banner-form .form-horizontal .form-control{
+        width: 100%;
+    }
+    .banner-form-area .register-btn{
+        padding-bottom: 25px;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px){
+    .banner-text .banner-heading{
+        font-size: 34px;
+        padding-left: 87px;
+        line-height: 37px;
+        margin-top: 74px;
+    }
+    
+    .banner-text .banner-parag {
+        font-size: 18px;
+        line-height: 24px;
+        margin-top: 20px;
+        margin-bottom: 78px;
+        padding-left: 85px;
+    }
+    
+    .banner-form-area{
+        margin: 68px 0 67px 20px;
+        max-width: 410px;
+    }
+    
+    .banner-form-area p{
+        font-size: 18px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        padding: 40px 0 26px 50px;
+    }
+    
+    .banner-form{
+        padding-left: 30px;
+    }
+    
+    .banner-form .form-control{
+        margin-bottom: 15.7px;
+    }
+    .banner-input-1{
+        margin-right: 14.9px;
+    }
+    .banner-form .form-inline .form-control{
+        width: 152px;
+        height: 32px;
+    }
+    .banner-form .form-horizontal .form-control{
+        width: 320px;
+        height: 32px;
+    }
+    .banner-form-area .register-btn{
+        padding-bottom: 43px;
+        padding-left: 0;
+    }
+    
+    .banner-form-area .register-btn .btn{
+        width: 90px;
+    }
+}
+
+@media only screen and (min-width:1200px) and (max-width:1365px){
+
+    .banner-text .banner-heading{
+        font-size: 38px;
+        padding-left: 117px;
+        margin-top: 94px;
+    }
+    
+    .banner-text .banner-parag {
+        margin-bottom: 108px;
+        padding-left: 120px;
+    }
+    
+    .banner-form-area{
+        margin: 68px 0 107px 71px;
+        max-width: 482px;
+    }
+    
+    .banner-form-area p{
+        font-size: 18px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        padding: 40px 0 26px 40px;
+    }
+    
+    .banner-form{
+        padding-left: 40px;
+    }
+    
 }

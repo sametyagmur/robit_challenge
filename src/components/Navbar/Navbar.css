@@ -192,14 +192,14 @@
     }
 }
 
-@media only screen and (min-width:1200px) and (max-width:1439px){
+@media only screen and (min-width:1200px) and (max-width:1365px){
     .navbar{
-        padding-left: 135px;
+        padding-left: 80px;
     }
 
     .navbar-brand{
-        padding-right: 70px;
-    }
+        padding-right: 50px;
+    }   
 
     .navbar-form .input-group .form-control{
         width: 160px;
@@ -207,7 +207,7 @@
     }
     
     .register-btn{
-        padding-right: 120px;
+        padding-right: 80px;
         padding-left: 15px;
     }
 
